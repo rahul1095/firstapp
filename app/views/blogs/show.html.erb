@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Decription:</strong>
+  <%= @blog.decription %>
+</p>
+
+<p>
+  <strong>Is active:</strong>
+  <%= @blog.is_active %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @blog.status %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @blog.image %>
+</p>
+
+<%= link_to 'Edit', edit_blog_path(@blog) %> |
+<%= link_to 'Back', blogs_path %>
